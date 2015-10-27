@@ -1,5 +1,15 @@
 批量下载豆瓣相册。
 
+
+## 说明
+- Douban.sublime-workspace是Sublime Text 3 的workspac文件。与爬虫本身无关
+- 豆瓣API请自行申请，然后写入同目录下的config.ini，格式如下：
+```
+[API]
+apikey = xxxxxxxxxxxx
+```
+
+
 ## Change log
 2015.10.27：刚完成单线程爬虫，已经可以使用。程序入口是util.py
 
