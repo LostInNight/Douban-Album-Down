@@ -4,7 +4,7 @@
 程序入口是util.py。命令行执行，按提示输入相册列表页的网址和保存的文件夹
 
 
-## 补充
+## 注意
 - Douban.sublime-workspace是Sublime Text 3 的workspac文件。与爬虫本身无关
 - 豆瓣API请自行申请，然后写入同目录下的config.ini，格式如下：
 ```
