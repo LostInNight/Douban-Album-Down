@@ -3,7 +3,7 @@
 # @Author: LosiInNight
 # @Date:   2015-10-26 15:48:58
 # @Last Modified by:   140591
-# @Last Modified time: 2015-10-26 21:40:06
+# @Last Modified time: 2015-10-29 14:56:45
 class Album(object):
 	"""豆瓣相册类"""
 	def __init__(self, id, title, url,
@@ -33,7 +33,6 @@ class Photo(object):
 class User(object):
 	"""豆瓣用户类"""
 	def __init__(self, id, uid, name):
-		super(User, self).__init__()
 		self.id = id
 		self.uid = uid
 		self.name = name
