@@ -7,22 +7,25 @@
 以[宋乐天相册]()为例：
 
 开始下载：
+
 ![](begin.jpg)
 
 下载完成：
+
 ![](done.jpg)
 
 文件夹大小：
+
 ![](all.jpg)
 
 
 ## 注意
-- Douban.sublime-workspace是Sublime Text 3 的workspac文件。与爬虫本身无关
-- 豆瓣API请自行申请，然后写入同目录下的config.ini，格式如下：
+- 豆瓣apikey请[点这里申请](http://developers.douban.com/wiki/?title=tutorial)，然后写入同目录下的config.ini，格式如下：
 ```
 [API]
 apikey = xxxxxxxxxxxx
 ```
+不添加apikey也能下载，限制单ip每小时150次，有apikey每小时500次
 
 
 ## Change log
