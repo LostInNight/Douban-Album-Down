@@ -4,7 +4,7 @@
 ## 说明
 程序入口是util.py。命令行执行，按提示输入相册列表页的网址和保存的文件夹。
 
-以[宋乐天相册]()为例：
+以[宋乐天相册](http://www.douban.com/people/songlet/photos)为例：
 
 开始下载：
 
